@@ -20,7 +20,7 @@ public class Space extends World
         
         // Create Tank (Player)
         Tank tank = new Tank(); 
-        addObject(tank, 640, 700);
+        addObject(tank, 640, 680);
         
         
     }

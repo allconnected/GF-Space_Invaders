@@ -8,6 +8,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Tank extends Actor
 {
+    public Tank()
+    {
+        GreenfootImage image = getImage();
+        int newImageHeight = (int)image.getHeight()*2;
+        int newImageWidth = (int)image.getWidth()*2;
+        image.scale(newImageWidth,newImageHeight);
+    }
+    
     /**
      * Act - do whatever the Tank wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.

@@ -1,7 +1,8 @@
 #Greenfoot project file
-class.Bullet.image=tree2.png
-class.Invader.image=bananas.png
-class.Tank.image=pizza_cheese.png
+class.Bullet.image=bullet.gif
+class.Invader.image=enemy1.gif
+class.Space.image=space1.jpg
+class.Tank.image=ship.gif
 dependency1.from=Space
 dependency1.to=Tank
 dependency1.type=UsesDependency
